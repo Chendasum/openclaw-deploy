@@ -2,7 +2,11 @@ FROM node:20
 
 WORKDIR /app
 
-RUN npm install -g openclaw
+# Install OpenClaw globally and fix PATH
+RUN npm install -g openclaw && npm cache clean --force
+
+# Ensure global npm bin is in PATH
+ENV PATH="/usr/local/bin:$PATH"
 
 ENV PORT=8080
 
