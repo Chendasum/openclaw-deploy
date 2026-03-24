@@ -2,7 +2,7 @@ import express from "express";
 import Anthropic from "@anthropic-ai/sdk";
 
 const app = express();
-const PORT = process.env.PORT || 18789;
+const PORT = process.env.PORT || 8080;
 
 // Initialize Anthropic client with Railway secret
 const anthropic = new Anthropic({
