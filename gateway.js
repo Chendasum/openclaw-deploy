@@ -3,7 +3,7 @@ import { Client } from "@notionhq/client";
 import Anthropic from "@anthropic-ai/sdk";
 
 const app = express();
-const PORT = process.env.PORT || 18789;
+const PORT = process.env.PORT || 8080;
 
 // Initialize Notion client
 const notion = new Client({ auth: process.env.NOTION_API_KEY });
