@@ -1,4 +1,5 @@
 "dependencies": {
   "@anthropic-ai/sdk": "^0.80.0",
-  "@notionhq/client": "^5.14.0"
+  "@notionhq/client": "^5.14.0",
+  "openclaw": "^<latest-version>"
 }
