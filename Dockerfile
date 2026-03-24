@@ -5,7 +5,7 @@ WORKDIR /app
 # Copy package.json first
 COPY package*.json ./
 
-# Install dependencies (this will install openclaw too)
+# Install dependencies (this installs openclaw too)
 RUN npm install
 
 # Copy the rest of your project
