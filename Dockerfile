@@ -2,6 +2,14 @@ FROM node:20
 
 WORKDIR /app
 
-RUN npm install -g openclaw
+# Copy package.json first
+COPY package*.json ./
 
-CMD ["openclaw", "gateway"]
+# Install dependencies (this will install openclaw too)
+RUN npm install
+
+# Copy the rest of your project
+COPY . .
+
+# Run OpenClaw gateway
+CMD ["npx", "openclaw", "gateway"]
