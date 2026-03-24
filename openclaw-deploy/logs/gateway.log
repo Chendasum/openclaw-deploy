@@ -1,0 +1,695 @@
+2026-03-24T11:44:53.962+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T11:44:53.997+07:00 [heartbeat] started
+2026-03-24T11:44:53.998+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T11:44:53.999+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T11:44:53.999+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 8603)
+2026-03-24T11:44:54.000+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T11:44:54.021+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T11:52:47.601+07:00 [gateway] device pairing auto-approved device=01f355ec7b5001220e76e63220aad065c4d6d18147b7bc542f9e21cb72cc7cc6 role=operator
+2026-03-24T11:53:42.435+07:00 [gateway] device pairing auto-approved device=ce094e246ced29bb25491a7879efc33a6f85de45141b8662709edc45845cec03 role=operator
+2026-03-24T11:53:42.438+07:00 [ws] webchat connected conn=ab2f1e3f-b259-4869-9c20-56fbc62662f7 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T11:53:43.746+07:00 [ws] ⇄ res ✓ chat.history 1299ms conn=ab2f1e3f…62f7 id=757897a1…134f
+2026-03-24T11:53:43.747+07:00 [ws] ⇄ res ✓ models.list 1297ms conn=ab2f1e3f…62f7 id=3d29bd1e…3f60
+2026-03-24T11:54:39.464+07:00 [ws] ⇄ res ✓ config.schema 120ms conn=ab2f1e3f…62f7 id=699ac733…3cd6
+2026-03-24T11:55:56.915+07:00 [gateway] update.run completed actor=openclaw-control-ui device=ce094e246ced29bb25491a7879efc33a6f85de45141b8662709edc45845cec03 ip=unknown-ip conn=ab2f1e3f-b259-4869-9c20-56fbc62662f7 changedPaths=<n/a> restartReason=update.run status=ok
+2026-03-24T11:55:56.916+07:00 [ws] ⇄ res ✓ update.run 54695ms conn=ab2f1e3f…62f7 id=1575f3a0…8280
+2026-03-24T11:55:58.922+07:00 [gateway] signal SIGUSR1 received
+2026-03-24T11:55:58.925+07:00 [gateway] received SIGUSR1; restarting
+2026-03-24T11:55:58.934+07:00 [gmail-watcher] gmail watcher stopped
+2026-03-24T11:55:58.948+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=ab2f1e3f-b259-4869-9c20-56fbc62662f7
+2026-03-24T11:55:58.952+07:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-24T11:56:02.014+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T11:56:02.043+07:00 [heartbeat] started
+2026-03-24T11:56:02.044+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T11:56:02.045+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T11:56:02.045+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 9113)
+2026-03-24T11:56:02.046+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T11:56:02.065+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T11:56:03.469+07:00 [ws] webchat connected conn=561382e2-d707-4431-83ad-23626b9ae96c remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T11:56:03.932+07:00 [ws] ⇄ res ✓ config.schema 455ms conn=561382e2…e96c id=de7e97bf…35f0
+2026-03-24T11:56:03.935+07:00 [ws] ⇄ res ✓ node.list 459ms conn=561382e2…e96c id=20cad419…b17f
+2026-03-24T11:56:03.936+07:00 [ws] ⇄ res ✓ device.pair.list 459ms conn=561382e2…e96c id=85b327af…1e72
+2026-03-24T11:58:16.729+07:00 [gateway] update.run completed actor=openclaw-control-ui device=ce094e246ced29bb25491a7879efc33a6f85de45141b8662709edc45845cec03 ip=unknown-ip conn=561382e2-d707-4431-83ad-23626b9ae96c changedPaths=<n/a> restartReason=update.run status=ok
+2026-03-24T11:58:16.730+07:00 [ws] ⇄ res ✓ update.run 8560ms conn=561382e2…e96c id=e14097e3…a35f
+2026-03-24T11:58:18.735+07:00 [gateway] signal SIGUSR1 received
+2026-03-24T11:58:18.739+07:00 [gateway] received SIGUSR1; restarting
+2026-03-24T11:58:18.749+07:00 [gmail-watcher] gmail watcher stopped
+2026-03-24T11:58:18.758+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=561382e2-d707-4431-83ad-23626b9ae96c
+2026-03-24T11:58:18.763+07:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-24T11:58:21.791+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T11:58:21.820+07:00 [heartbeat] started
+2026-03-24T11:58:21.821+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T11:58:21.822+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T11:58:21.823+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 9434)
+2026-03-24T11:58:21.823+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T11:58:21.843+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T11:58:23.282+07:00 [ws] webchat connected conn=7206d9ef-603c-4e64-ab71-f74200ce6a4b remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T11:58:23.731+07:00 [ws] ⇄ res ✓ config.schema 441ms conn=7206d9ef…6a4b id=56e40c6e…6dbf
+2026-03-24T11:58:23.732+07:00 [ws] ⇄ res ✓ node.list 444ms conn=7206d9ef…6a4b id=c9a94b8f…16c9
+2026-03-24T11:58:23.733+07:00 [ws] ⇄ res ✓ device.pair.list 444ms conn=7206d9ef…6a4b id=6e6a84e5…8ad0
+2026-03-24T11:58:34.366+07:00 [gateway] update.run completed actor=openclaw-control-ui device=ce094e246ced29bb25491a7879efc33a6f85de45141b8662709edc45845cec03 ip=unknown-ip conn=7206d9ef-603c-4e64-ab71-f74200ce6a4b changedPaths=<n/a> restartReason=update.run status=ok
+2026-03-24T11:58:34.368+07:00 [ws] ⇄ res ✓ update.run 8147ms conn=7206d9ef…6a4b id=48dbb3b5…3849
+2026-03-24T11:58:36.371+07:00 [gateway] signal SIGUSR1 received
+2026-03-24T11:58:36.373+07:00 [gateway] received SIGUSR1; restarting
+2026-03-24T11:58:36.382+07:00 [gmail-watcher] gmail watcher stopped
+2026-03-24T11:58:36.391+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=7206d9ef-603c-4e64-ab71-f74200ce6a4b
+2026-03-24T11:58:36.396+07:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-24T11:58:39.780+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T11:58:39.825+07:00 [heartbeat] started
+2026-03-24T11:58:39.826+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T11:58:39.827+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T11:58:39.828+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 9735)
+2026-03-24T11:58:39.828+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T11:58:39.848+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T11:58:41.746+07:00 [ws] webchat connected conn=3e472af5-2789-4184-9ed2-296f05486aeb remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T11:58:42.227+07:00 [ws] ⇄ res ✓ config.schema 471ms conn=3e472af5…6aeb id=193b669f…c00c
+2026-03-24T11:58:42.228+07:00 [ws] ⇄ res ✓ node.list 474ms conn=3e472af5…6aeb id=e0b87287…7951
+2026-03-24T11:58:42.229+07:00 [ws] ⇄ res ✓ device.pair.list 473ms conn=3e472af5…6aeb id=b8aadb9f…6961
+2026-03-24T11:59:16.952+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=3e472af5-2789-4184-9ed2-296f05486aeb
+2026-03-24T11:59:16.994+07:00 [ws] webchat connected conn=225772a7-4d00-46bf-8406-0e49a9a49648 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T11:59:19.985+07:00 [gateway] update.run completed actor=openclaw-control-ui device=ce094e246ced29bb25491a7879efc33a6f85de45141b8662709edc45845cec03 ip=unknown-ip conn=3e472af5-2789-4184-9ed2-296f05486aeb changedPaths=<n/a> restartReason=update.run status=ok
+2026-03-24T11:59:19.985+07:00 [ws] ⇄ res ✓ update.run 8632ms conn=3e472af5…6aeb id=17f83572…f6e2
+2026-03-24T11:59:21.987+07:00 [gateway] signal SIGUSR1 received
+2026-03-24T11:59:21.987+07:00 [gateway] received SIGUSR1; restarting
+2026-03-24T11:59:21.991+07:00 [gmail-watcher] gmail watcher stopped
+2026-03-24T11:59:21.995+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=225772a7-4d00-46bf-8406-0e49a9a49648
+2026-03-24T11:59:21.998+07:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-24T11:59:29.616+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T11:59:29.645+07:00 [heartbeat] started
+2026-03-24T11:59:29.646+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T11:59:29.648+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T11:59:29.648+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 10047)
+2026-03-24T11:59:29.648+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T11:59:29.669+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T11:59:31.666+07:00 [ws] webchat connected conn=038a0b3b-b7b4-451c-9603-48c02f1e976c remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T11:59:32.144+07:00 [ws] ⇄ res ✓ config.schema 468ms conn=038a0b3b…976c id=97712abf…c6db
+2026-03-24T11:59:32.147+07:00 [ws] ⇄ res ✓ node.list 472ms conn=038a0b3b…976c id=ffc552e0…a09c
+2026-03-24T11:59:32.147+07:00 [ws] ⇄ res ✓ device.pair.list 472ms conn=038a0b3b…976c id=430c6aab…e588
+2026-03-24T11:59:42.047+07:00 [ws] ⇄ res ✓ chat.history 1746ms conn=038a0b3b…976c id=fd1dd8d2…3e22
+2026-03-24T11:59:42.049+07:00 [ws] ⇄ res ✓ models.list 1747ms conn=038a0b3b…976c id=2cd690f0…6cbe
+2026-03-24T11:59:43.460+07:00 [gateway] update.run completed actor=openclaw-control-ui device=ce094e246ced29bb25491a7879efc33a6f85de45141b8662709edc45845cec03 ip=unknown-ip conn=038a0b3b-b7b4-451c-9603-48c02f1e976c changedPaths=<n/a> restartReason=update.run status=ok
+2026-03-24T11:59:43.461+07:00 [ws] ⇄ res ✓ update.run 8357ms conn=038a0b3b…976c id=34bd72f2…54a6
+2026-03-24T11:59:45.465+07:00 [gateway] signal SIGUSR1 received
+2026-03-24T11:59:45.466+07:00 [gateway] received SIGUSR1; restarting
+2026-03-24T11:59:45.473+07:00 [gmail-watcher] gmail watcher stopped
+2026-03-24T11:59:45.482+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=038a0b3b-b7b4-451c-9603-48c02f1e976c
+2026-03-24T11:59:45.487+07:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-24T11:59:48.460+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T11:59:48.490+07:00 [heartbeat] started
+2026-03-24T11:59:48.491+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T11:59:48.492+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T11:59:48.492+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 10350)
+2026-03-24T11:59:48.493+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T11:59:48.514+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T11:59:53.943+07:00 [ws] webchat connected conn=8f884ac3-8f5c-4da6-a72b-1e9976adb55b remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T11:59:55.175+07:00 [ws] ⇄ res ✓ chat.history 1216ms conn=8f884ac3…b55b id=dca7d490…d86f
+2026-03-24T11:59:55.176+07:00 [ws] ⇄ res ✓ models.list 1208ms conn=8f884ac3…b55b id=222ce887…ac4f
+2026-03-24T12:00:49.788+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=8f884ac3-8f5c-4da6-a72b-1e9976adb55b
+2026-03-24T12:00:50.650+07:00 [ws] webchat connected conn=a23f73e3-2e62-4952-8a5f-94e35b8a7eb5 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T12:31:31.195+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=a23f73e3-2e62-4952-8a5f-94e35b8a7eb5
+2026-03-24T12:31:32.088+07:00 [ws] webchat connected conn=38a30a63-d59b-4e52-acca-32fb67e235d4 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T13:04:15.480+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.list, auth, bindings, channels)
+2026-03-24T13:04:15.527+07:00 [gateway] signal SIGUSR1 received
+2026-03-24T13:04:15.528+07:00 [gateway] received SIGUSR1; restarting
+2026-03-24T13:04:15.532+07:00 [gmail-watcher] gmail watcher stopped
+2026-03-24T13:04:15.540+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=38a30a63-d59b-4e52-acca-32fb67e235d4
+2026-03-24T13:04:15.557+07:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-24T13:04:18.344+07:00 [gateway] auto-enabled plugins:
+- WhatsApp configured, enabled automatically.
+2026-03-24T13:04:18.425+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T13:04:18.458+07:00 [heartbeat] started
+2026-03-24T13:04:18.459+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T13:04:18.473+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T13:04:18.474+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 11243)
+2026-03-24T13:04:18.475+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T13:04:18.488+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T13:04:18.489+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T13:04:18.514+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T13:04:18.566+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T13:04:21.030+07:00 [telegram] [default] starting provider
+2026-03-24T13:04:21.035+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T13:04:21.036+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T13:04:21.134+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.
+2026-03-24T13:04:21.738+07:00 [ws] webchat connected conn=63147459-d922-49d6-b74a-0ae48c9ca893 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T13:04:22.883+07:00 [ws] ⇄ res ✓ health 1126ms conn=63147459…a893 id=56f8fec2…69d6
+2026-03-24T13:04:23.093+07:00 [ws] ⇄ res ✓ chat.history 1341ms conn=63147459…a893 id=8425c6a1…eb35
+2026-03-24T13:04:23.094+07:00 [ws] ⇄ res ✓ models.list 1330ms conn=63147459…a893 id=a874601d…abf5
+2026-03-24T13:04:32.226+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=63147459-d922-49d6-b74a-0ae48c9ca893
+2026-03-24T13:04:33.087+07:00 [ws] webchat connected conn=85046cc8-a577-42cc-890f-d31ec31f8a9a remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T13:04:36.779+07:00 [ws] ⇄ res ✓ config.schema 70ms conn=85046cc8…8a9a id=493b0d90…792c
+2026-03-24T13:05:00.671+07:00 [gateway] update.run completed actor=openclaw-control-ui device=ce094e246ced29bb25491a7879efc33a6f85de45141b8662709edc45845cec03 ip=unknown-ip conn=85046cc8-a577-42cc-890f-d31ec31f8a9a changedPaths=<n/a> restartReason=update.run status=ok
+2026-03-24T13:05:00.672+07:00 [ws] ⇄ res ✓ update.run 21697ms conn=85046cc8…8a9a id=f802ebf1…0bee
+2026-03-24T13:05:02.678+07:00 [gateway] signal SIGUSR1 received
+2026-03-24T13:05:02.681+07:00 [gateway] received SIGUSR1; restarting
+2026-03-24T13:05:02.702+07:00 [gmail-watcher] gmail watcher stopped
+2026-03-24T13:05:02.714+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=85046cc8-a577-42cc-890f-d31ec31f8a9a
+2026-03-24T13:05:02.718+07:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-24T13:05:05.731+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T13:05:05.772+07:00 [heartbeat] started
+2026-03-24T13:05:05.773+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T13:05:05.786+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T13:05:05.787+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 11545)
+2026-03-24T13:05:05.787+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T13:05:05.802+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T13:05:05.803+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T13:05:05.828+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T13:05:05.884+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T13:05:06.811+07:00 [telegram] [default] starting provider (@ImperiumCapitalKHBot)
+2026-03-24T13:05:06.815+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T13:05:06.817+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T13:05:07.697+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.
+2026-03-24T13:05:12.693+07:00 [ws] webchat connected conn=f5ef6db3-7960-4b2d-a185-e1343b8b1c24 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T13:05:13.177+07:00 [ws] ⇄ res ✓ config.schema 473ms conn=f5ef6db3…1c24 id=05120378…e696
+2026-03-24T13:05:13.179+07:00 [ws] ⇄ res ✓ node.list 475ms conn=f5ef6db3…1c24 id=e1c3dd95…07bd
+2026-03-24T13:05:13.179+07:00 [ws] ⇄ res ✓ device.pair.list 476ms conn=f5ef6db3…1c24 id=4657940c…30d2
+2026-03-24T13:05:16.335+07:00 [ws] ⇄ res ✓ chat.history 1443ms conn=f5ef6db3…1c24 id=d7875f71…e987
+2026-03-24T13:05:16.336+07:00 [ws] ⇄ res ✓ models.list 1394ms conn=f5ef6db3…1c24 id=00227ce7…9585
+2026-03-24T13:05:37.278+07:00 [ws] ⇄ res ✓ skills.status 74ms conn=f5ef6db3…1c24 id=e1d1ca33…9e3d
+2026-03-24T13:05:37.290+07:00 [ws] ⇄ res ✓ models.list 87ms conn=f5ef6db3…1c24 id=e07b91ae…17b6
+2026-03-24T13:05:37.291+07:00 [ws] ⇄ res ✓ cron.status 91ms conn=f5ef6db3…1c24 id=d183aff9…17cd
+2026-03-24T13:05:37.291+07:00 [ws] ⇄ res ✓ cron.list 92ms conn=f5ef6db3…1c24 id=bb3b5266…2e0a
+2026-03-24T13:05:37.301+07:00 [ws] ⇄ res ✓ channels.status 110ms conn=f5ef6db3…1c24 id=04a001d5…2afa
+2026-03-24T13:05:37.309+07:00 [ws] ⇄ res ✓ status 109ms conn=f5ef6db3…1c24 id=ed769754…6f1a
+2026-03-24T13:05:49.159+07:00 [ws] ⇄ res ✓ channels.status 1682ms conn=f5ef6db3…1c24 id=e54d5142…6e0c
+2026-03-24T13:06:47.867+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=f5ef6db3-7960-4b2d-a185-e1343b8b1c24
+2026-03-24T13:06:48.737+07:00 [ws] webchat connected conn=cba5d574-793f-4244-9dd0-a9124ccce39b remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T13:12:23.891+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T13:12:23.897+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T13:12:51.718+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T13:12:51.721+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T13:20:12.004+07:00 [whatsapp] Inbound message +85511665697 -> +85511665697 (direct, 80 chars)
+2026-03-24T13:20:18.856+07:00 [whatsapp] Auto-replied to +85511665697
+2026-03-24T13:20:18.967+07:00 [whatsapp] Inbound message +85511665697 -> +85511665697 (direct, 399 chars)
+2026-03-24T13:20:23.004+07:00 [whatsapp] Auto-replied to +85511665697
+2026-03-24T13:20:51.632+07:00 [whatsapp] Inbound message +85511665697 -> +85511665697 (direct, 116 chars)
+2026-03-24T13:20:59.380+07:00 [whatsapp] Auto-replied to +85511665697
+2026-03-24T13:23:24.430+07:00 [whatsapp] [default] auto-restart attempt 1/10 in 5s
+2026-03-24T13:23:29.710+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T13:23:31.892+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.
+2026-03-24T13:23:38.558+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T13:23:38.596+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T13:24:53.624+07:00 [reload] config reload retry (1/2): config file not found
+2026-03-24T13:24:53.777+07:00 [reload] config reload retry (2/2): config file not found
+2026-03-24T13:41:02.100+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, auth, agents.list, agents.defaults.workspace, agents.defaults.compaction, bindings, channels, gateway.auth, wizard)
+2026-03-24T13:41:02.138+07:00 [gateway] signal SIGUSR1 received
+2026-03-24T13:41:02.139+07:00 [gateway] received SIGUSR1; restarting
+2026-03-24T13:41:02.150+07:00 [gmail-watcher] gmail watcher stopped
+2026-03-24T13:41:02.156+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=cba5d574-793f-4244-9dd0-a9124ccce39b
+2026-03-24T13:41:02.174+07:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-24T13:41:04.373+07:00 [gateway] auto-enabled plugins:
+- WhatsApp configured, enabled automatically.
+2026-03-24T13:41:04.392+07:00 [gateway] auth token was missing. Generated a new token and saved it to config (gateway.auth.token).
+2026-03-24T13:41:04.436+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T13:41:04.503+07:00 [heartbeat] started
+2026-03-24T13:41:04.504+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T13:41:04.505+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T13:41:04.506+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 12040)
+2026-03-24T13:41:04.506+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T13:41:04.528+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T13:41:04.542+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T13:41:06.617+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.
+2026-03-24T13:41:08.739+07:00 [ws] webchat connected conn=317106e3-e9b5-493c-8bc6-9779c0062157 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T13:41:09.950+07:00 [ws] ⇄ res ✓ chat.history 1178ms conn=317106e3…2157 id=948cdc57…37ca
+2026-03-24T13:41:09.951+07:00 [ws] ⇄ res ✓ models.list 1170ms conn=317106e3…2157 id=2ea889f9…8e75
+2026-03-24T13:44:32.170+07:00 [whatsapp] [default] auto-restart attempt 1/10 in 5s
+2026-03-24T13:44:37.293+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T13:44:39.116+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.
+2026-03-24T13:45:02.272+07:00 [whatsapp] [default] auto-restart attempt 2/10 in 11s
+2026-03-24T13:45:13.294+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T13:45:15.573+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.
+2026-03-24T13:45:55.773+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, wizard.lastRunAt, channels.whatsapp.enabled, channels.whatsapp.dmPolicy, channels.whatsapp.selfChatMode, channels.whatsapp.allowFrom, channels.telegram, gateway.auth)
+2026-03-24T13:45:55.780+07:00 [gateway] signal SIGUSR1 received
+2026-03-24T13:45:55.781+07:00 [gateway] received SIGUSR1; restarting
+2026-03-24T13:45:55.792+07:00 [gmail-watcher] gmail watcher stopped
+2026-03-24T13:45:55.798+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=317106e3-e9b5-493c-8bc6-9779c0062157
+2026-03-24T13:45:55.801+07:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-24T13:45:58.468+07:00 [gateway] auto-enabled plugins:
+- WhatsApp configured, enabled automatically.
+2026-03-24T13:45:58.490+07:00 [gateway] auth token was missing. Generated a new token and saved it to config (gateway.auth.token).
+2026-03-24T13:45:58.550+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T13:45:58.580+07:00 [heartbeat] started
+2026-03-24T13:45:58.581+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T13:45:58.582+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T13:45:58.583+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 12139)
+2026-03-24T13:45:58.583+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T13:45:58.596+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T13:45:58.597+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T13:45:58.628+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T13:45:58.679+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T13:46:00.110+07:00 [telegram] [default] starting provider (@ImperiumCapitalKHBot)
+2026-03-24T13:46:00.116+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T13:46:00.118+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T13:46:00.531+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.
+2026-03-24T13:46:01.736+07:00 [ws] webchat connected conn=b8b5e322-9ea9-4f5f-98fc-9846f662ad19 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T13:46:03.060+07:00 [ws] ⇄ res ✓ chat.history 1312ms conn=b8b5e322…ad19 id=248471c8…b9c8
+2026-03-24T13:46:03.061+07:00 [ws] ⇄ res ✓ models.list 1302ms conn=b8b5e322…ad19 id=09b6d12b…e9cc
+2026-03-24T13:47:26.196+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T13:47:26.198+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T13:50:24.495+07:00 [reload] config reload retry (1/2): config file not found
+2026-03-24T13:50:24.650+07:00 [reload] config reload retry (2/2): config file not found
+2026-03-24T13:52:22.309+07:00 [whatsapp] [default] auto-restart attempt 1/10 in 5s
+2026-03-24T13:52:27.698+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T13:52:29.589+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.
+2026-03-24T13:53:43.730+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, wizard, agents.defaults.workspace, agents.list, channels.whatsapp.enabled, channels.telegram.dmPolicy, channels.telegram.allowFrom, gateway, auth, bindings)
+2026-03-24T13:53:43.738+07:00 [gateway] signal SIGUSR1 received
+2026-03-24T13:53:43.740+07:00 [gateway] received SIGUSR1; restarting
+2026-03-24T13:53:43.757+07:00 [gmail-watcher] gmail watcher stopped
+2026-03-24T13:53:43.768+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=b8b5e322-9ea9-4f5f-98fc-9846f662ad19
+2026-03-24T13:53:43.788+07:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-24T14:01:17.925+07:00 [gateway] auto-enabled plugins:
+- WhatsApp configured, enabled automatically.
+2026-03-24T14:01:17.963+07:00 [gateway] auth token was missing. Generated a new token and saved it to config (gateway.auth.token).
+2026-03-24T14:01:18.076+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T14:01:18.135+07:00 [heartbeat] started
+2026-03-24T14:01:18.137+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T14:01:18.159+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T14:01:18.160+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 20604)
+2026-03-24T14:01:18.161+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T14:01:18.185+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T14:01:18.186+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T14:01:18.229+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T14:01:18.320+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T14:01:19.759+07:00 [telegram] [default] starting provider (@ImperiumCapitalKHBot)
+2026-03-24T14:01:19.766+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T14:01:19.768+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T14:01:20.187+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.
+2026-03-24T14:01:31.394+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T14:01:31.398+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T14:02:58.244+07:00 [ws] webchat connected conn=770abe8a-0df0-4a8f-b7b5-b8ad51892fa0 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T14:03:32.090+07:00 [whatsapp] Inbound message +85511665697 -> +85511665697 (direct, 69 chars)
+2026-03-24T14:03:37.993+07:00 [whatsapp] Auto-replied to +85511665697
+2026-03-24T14:06:33.592+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T14:06:33.597+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T14:07:15.187+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T14:07:15.193+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T14:07:56.572+07:00 [ws] ⇄ res ✓ config.schema 85ms conn=770abe8a…2fa0 id=0a06e5e8…fa18
+2026-03-24T14:08:27.400+07:00 [gateway] update.run completed actor=openclaw-control-ui device=ce094e246ced29bb25491a7879efc33a6f85de45141b8662709edc45845cec03 ip=unknown-ip conn=770abe8a-0df0-4a8f-b7b5-b8ad51892fa0 changedPaths=<n/a> restartReason=update.run status=ok
+2026-03-24T14:08:27.401+07:00 [ws] ⇄ res ✓ update.run 28950ms conn=770abe8a…2fa0 id=ac2f73b7…13e8
+2026-03-24T14:08:29.403+07:00 [gateway] signal SIGUSR1 received
+2026-03-24T14:08:29.405+07:00 [gateway] received SIGUSR1; restarting
+2026-03-24T14:08:29.437+07:00 [gmail-watcher] gmail watcher stopped
+2026-03-24T14:08:29.452+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=770abe8a-0df0-4a8f-b7b5-b8ad51892fa0
+2026-03-24T14:08:29.473+07:00 [gateway] restart mode: full process restart (supervisor restart)
+2026-03-24T14:08:32.491+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T14:08:32.524+07:00 [heartbeat] started
+2026-03-24T14:08:32.525+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T14:08:32.538+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T14:08:32.539+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 21099)
+2026-03-24T14:08:32.539+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T14:08:32.553+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T14:08:32.554+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T14:08:32.580+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T14:08:32.631+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T14:08:33.398+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T14:08:33.398+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T14:08:33.553+07:00 [telegram] [default] starting provider (@ImperiumCapitalKHBot)
+2026-03-24T14:08:33.561+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T14:08:33.562+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T14:08:34.423+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.
+2026-03-24T14:08:35.737+07:00 [ws] webchat connected conn=ea78194a-1c6d-4125-a518-5d2a5209aa1f remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T14:08:36.237+07:00 [ws] ⇄ res ✓ config.schema 490ms conn=ea78194a…aa1f id=d0ce2354…8cc9
+2026-03-24T14:08:36.240+07:00 [ws] ⇄ res ✓ node.list 495ms conn=ea78194a…aa1f id=91cc4f9f…c719
+2026-03-24T14:08:36.241+07:00 [ws] ⇄ res ✓ device.pair.list 495ms conn=ea78194a…aa1f id=2978aab6…bb21
+2026-03-24T14:09:37.722+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T14:09:37.727+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T14:11:03.058+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T14:11:03.063+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T14:13:50.682+07:00 [ws] webchat connected conn=e36accb6-0ac2-44d6-b366-b9e10f95de30 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T14:13:51.657+07:00 [ws] ⇄ res ✓ chat.history 945ms conn=e36accb6…de30 id=896da120…e5e1
+2026-03-24T14:13:51.658+07:00 [ws] ⇄ res ✓ models.list 935ms conn=e36accb6…de30 id=98901b81…219f
+2026-03-24T14:16:44.505+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T14:16:44.513+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T14:20:11.656+07:00 [ws] ⇄ res ✓ skills.status 91ms conn=e36accb6…de30 id=ec4ca4d9…37be
+2026-03-24T14:21:32.065+07:00 [ws] ⇄ res ✓ skills.status 67ms conn=e36accb6…de30 id=acc6cc79…9fd5
+2026-03-24T14:22:02.860+07:00 [ws] ⇄ res ✓ skills.status 62ms conn=e36accb6…de30 id=71d07557…d1c7
+2026-03-24T14:22:07.890+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T14:22:07.894+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T14:22:38.044+07:00 [ws] ⇄ res ✓ models.list 63ms conn=e36accb6…de30 id=381b59a5…82b4
+2026-03-24T14:22:38.044+07:00 [ws] ⇄ res ✓ cron.status 68ms conn=e36accb6…de30 id=9e6bdea8…5c8e
+2026-03-24T14:22:38.045+07:00 [ws] ⇄ res ✓ cron.list 69ms conn=e36accb6…de30 id=1a075de4…2640
+2026-03-24T14:22:38.052+07:00 [ws] ⇄ res ✓ channels.status 104ms conn=e36accb6…de30 id=96394f12…83dd
+2026-03-24T14:22:38.064+07:00 [ws] ⇄ res ✓ status 87ms conn=e36accb6…de30 id=dbdce7ac…284b
+2026-03-24T14:22:47.329+07:00 [ws] ⇄ res ✓ channels.status 1430ms conn=e36accb6…de30 id=796f5d40…cee4
+2026-03-24T14:22:49.469+07:00 [ws] ⇄ res ✓ channels.status 434ms conn=e36accb6…de30 id=509ef862…1689
+2026-03-24T14:55:36.707+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T14:55:36.714+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T14:55:37.739+07:00 [ws] ⇄ res ✓ skills.status 62ms conn=e36accb6…de30 id=1696409f…eeb0
+2026-03-24T14:55:41.849+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T14:55:41.853+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T14:57:27.466+07:00 [ws] ⇄ res ✓ skills.status 73ms conn=e36accb6…de30 id=09d066dc…fb60
+2026-03-24T14:57:49.903+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=e36accb6-0ac2-44d6-b366-b9e10f95de30
+2026-03-24T14:57:50.811+07:00 [ws] webchat connected conn=cef1f4d6-7f93-4efc-bc94-d36f7a3416ec remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T14:58:38.689+07:00 [ws] ⇄ res ✓ skills.status 62ms conn=cef1f4d6…16ec id=75bcfac4…67ba
+2026-03-24T15:01:06.124+07:00 [ws] ⇄ res ✓ models.list 57ms conn=cef1f4d6…16ec id=3e7f1e66…2ca6
+2026-03-24T15:01:06.126+07:00 [ws] ⇄ res ✓ cron.status 60ms conn=cef1f4d6…16ec id=bc8bce4d…fee5
+2026-03-24T15:01:06.126+07:00 [ws] ⇄ res ✓ cron.list 61ms conn=cef1f4d6…16ec id=daaa4f46…653d
+2026-03-24T15:01:06.129+07:00 [ws] ⇄ res ✓ channels.status 70ms conn=cef1f4d6…16ec id=a03cf739…42d2
+2026-03-24T15:01:06.140+07:00 [ws] ⇄ res ✓ status 74ms conn=cef1f4d6…16ec id=472ee2bc…f240
+2026-03-24T15:01:08.013+07:00 [ws] webchat disconnected code=1005 reason=n/a conn=cef1f4d6-7f93-4efc-bc94-d36f7a3416ec
+2026-03-24T15:01:08.845+07:00 [ws] webchat connected conn=24d40640-20cc-4597-b24e-de8ba4273b65 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:01:08.907+07:00 [ws] ⇄ res ✓ skills.status 52ms conn=24d40640…3b65 id=02e96760…81e0
+2026-03-24T15:01:08.910+07:00 [ws] ⇄ res ✓ models.list 55ms conn=24d40640…3b65 id=678feb4c…886d
+2026-03-24T15:01:08.921+07:00 [ws] ⇄ res ✓ cron.status 67ms conn=24d40640…3b65 id=714c1c50…110b
+2026-03-24T15:01:08.921+07:00 [ws] ⇄ res ✓ cron.list 68ms conn=24d40640…3b65 id=4e4cca44…4c77
+2026-03-24T15:01:08.925+07:00 [ws] ⇄ res ✓ node.list 72ms conn=24d40640…3b65 id=ab52fdf2…b3af
+2026-03-24T15:01:08.927+07:00 [ws] ⇄ res ✓ device.pair.list 74ms conn=24d40640…3b65 id=3d96c963…7963
+2026-03-24T15:01:08.929+07:00 [ws] ⇄ res ✓ channels.status 78ms conn=24d40640…3b65 id=7ce263da…f026
+2026-03-24T15:01:08.939+07:00 [ws] ⇄ res ✓ status 85ms conn=24d40640…3b65 id=1cc95ddd…f294
+2026-03-24T15:01:38.051+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=24d40640-20cc-4597-b24e-de8ba4273b65
+2026-03-24T15:01:38.924+07:00 [ws] webchat connected conn=fe13c211-b99e-4e48-8d58-c494e438d4b1 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:02:08.302+07:00 [ws] ⇄ res ✓ skills.status 51ms conn=fe13c211…d4b1 id=2667adaf…ccf6
+2026-03-24T15:02:08.315+07:00 [ws] ⇄ res ✓ models.list 64ms conn=fe13c211…d4b1 id=20167a6f…bb6b
+2026-03-24T15:02:08.317+07:00 [ws] ⇄ res ✓ cron.status 67ms conn=fe13c211…d4b1 id=8bb38a2a…e2d8
+2026-03-24T15:02:08.318+07:00 [ws] ⇄ res ✓ cron.list 68ms conn=fe13c211…d4b1 id=acb783c8…3504
+2026-03-24T15:02:08.321+07:00 [ws] ⇄ res ✓ channels.status 77ms conn=fe13c211…d4b1 id=e683876d…61ab
+2026-03-24T15:02:08.329+07:00 [ws] ⇄ res ✓ status 79ms conn=fe13c211…d4b1 id=d3697a6c…5bea
+2026-03-24T15:02:10.617+07:00 [ws] ⇄ res ✓ channels.status 1840ms conn=fe13c211…d4b1 id=8f33265d…dcfc
+2026-03-24T15:03:52.077+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T15:03:52.083+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T15:03:59.017+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=fe13c211-b99e-4e48-8d58-c494e438d4b1
+2026-03-24T15:03:59.890+07:00 [ws] webchat connected conn=5f77ebc3-bc4d-4089-9d65-801eef44b8c9 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:06:19.682+07:00 [gateway] device pairing auto-approved device=01f355ec7b5001220e76e63220aad065c4d6d18147b7bc542f9e21cb72cc7cc6 role=operator
+2026-03-24T15:12:57.205+07:00 [ws] ⇄ res ✓ channels.status 508ms conn=5f77ebc3…b8c9 id=3490b6fa…c579
+2026-03-24T15:13:11.763+07:00 [ws] ⇄ res ✓ channels.status 918ms conn=5f77ebc3…b8c9 id=82d6f5a6…2dc9
+2026-03-24T15:13:14.125+07:00 [ws] ⇄ res ✓ channels.status 1088ms conn=5f77ebc3…b8c9 id=74382029…e6c3
+2026-03-24T15:13:46.338+07:00 [ws] ⇄ res ✓ web.login.start 30004ms conn=5f77ebc3…b8c9 id=413a65ed…c95f
+2026-03-24T15:13:46.995+07:00 [ws] ⇄ res ✓ channels.status 542ms conn=5f77ebc3…b8c9 id=4f6a2adf…77c3
+2026-03-24T15:14:04.702+07:00 [ws] ⇄ res ✓ channels.status 1737ms conn=5f77ebc3…b8c9 id=ac975eac…f70c
+2026-03-24T15:14:07.084+07:00 [ws] ⇄ res ✓ channels.status 1028ms conn=5f77ebc3…b8c9 id=e46412d4…0cb5
+2026-03-24T15:14:37.920+07:00 [ws] ⇄ res ✓ web.login.start 30005ms conn=5f77ebc3…b8c9 id=3ccb5075…d1f1
+2026-03-24T15:14:39.280+07:00 [ws] ⇄ res ✓ channels.status 1249ms conn=5f77ebc3…b8c9 id=9579ca59…219a
+2026-03-24T15:16:19.432+07:00 [ws] ⇄ res ✓ web.login.start 30004ms conn=5f77ebc3…b8c9 id=bd73dfb2…e8b2
+2026-03-24T15:16:20.035+07:00 [ws] ⇄ res ✓ channels.status 494ms conn=5f77ebc3…b8c9 id=b849aa17…c41a
+2026-03-24T15:16:25.083+07:00 [ws] ⇄ res ✓ channels.status 509ms conn=5f77ebc3…b8c9 id=5df8a013…ed33
+2026-03-24T15:17:01.113+07:00 [ws] ⇄ res ✓ channels.status 487ms conn=5f77ebc3…b8c9 id=991f8567…61aa
+2026-03-24T15:17:01.904+07:00 [ws] ⇄ res ✓ channels.status 496ms conn=5f77ebc3…b8c9 id=56d99c36…ed36
+2026-03-24T15:17:01.930+07:00 [ws] ⇄ res ✓ web.login.start 30002ms conn=5f77ebc3…b8c9 id=c5416f06…1dc1
+2026-03-24T15:17:02.660+07:00 [ws] ⇄ res ✓ channels.status 562ms conn=5f77ebc3…b8c9 id=a632257b…9f9c
+2026-03-24T15:17:12.180+07:00 [ws] ⇄ res ✓ channels.status 524ms conn=5f77ebc3…b8c9 id=69507c42…94bb
+2026-03-24T15:17:14.727+07:00 [ws] ⇄ res ✓ channels.status 486ms conn=5f77ebc3…b8c9 id=816eab60…69f0
+2026-03-24T15:17:58.320+07:00 Cleared WhatsApp Web credentials.
+2026-03-24T15:17:59.431+07:00 [ws] ⇄ res ✓ channels.status 972ms conn=5f77ebc3…b8c9 id=027e3e89…de21
+2026-03-24T15:18:03.645+07:00 No WhatsApp Web session found; nothing to delete.
+2026-03-24T15:18:04.316+07:00 [ws] ⇄ res ✓ channels.status 490ms conn=5f77ebc3…b8c9 id=b8de982d…8a7b
+2026-03-24T15:18:07.282+07:00 [ws] ⇄ res ✓ channels.status 471ms conn=5f77ebc3…b8c9 id=c730a044…a8e1
+2026-03-24T15:18:09.186+07:00 WhatsApp QR received.
+2026-03-24T15:18:09.220+07:00 [ws] ⇄ res ✓ web.login.start 1262ms conn=5f77ebc3…b8c9 id=3e9600ff…bf83
+2026-03-24T15:18:09.827+07:00 [ws] ⇄ res ✓ channels.status 496ms conn=5f77ebc3…b8c9 id=c806a119…ee0f
+2026-03-24T15:19:59.462+07:00 [ws] ⇄ res ✓ channels.status 602ms conn=5f77ebc3…b8c9 id=125cb0ab…1711
+2026-03-24T15:20:00.131+07:00 [ws] ⇄ res ✓ channels.status 506ms conn=5f77ebc3…b8c9 id=4d4f5c97…e0e8
+2026-03-24T15:20:01.344+07:00 [ws] ⇄ res ✓ channels.status 494ms conn=5f77ebc3…b8c9 id=d3a9bb17…4e6a
+2026-03-24T15:20:03.381+07:00 [ws] ⇄ res ✓ channels.status 478ms conn=5f77ebc3…b8c9 id=070749a7…831f
+2026-03-24T15:20:04.377+07:00 [ws] ⇄ res ✓ channels.status 475ms conn=5f77ebc3…b8c9 id=70c5ce11…0daf
+2026-03-24T15:20:05.965+07:00 [ws] ⇄ res ✓ channels.status 1238ms conn=5f77ebc3…b8c9 id=464838c7…8120
+2026-03-24T15:20:09.950+07:00 [ws] ⇄ res ✓ channels.status 470ms conn=5f77ebc3…b8c9 id=f90b5078…9ad2
+2026-03-24T15:20:25.631+07:00 Cleared WhatsApp Web credentials.
+2026-03-24T15:20:26.289+07:00 [ws] ⇄ res ✓ channels.status 456ms conn=5f77ebc3…b8c9 id=633abcf0…7cff
+2026-03-24T15:20:28.085+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=5f77ebc3-bc4d-4089-9d65-801eef44b8c9
+2026-03-24T15:20:28.960+07:00 [ws] webchat connected conn=0af6b098-a2fc-4a8a-835f-6e55033f01b3 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:20:30.012+07:00 [ws] ⇄ res ✓ channels.status 1044ms conn=0af6b098…01b3 id=9a6490ba…5b9e
+2026-03-24T15:20:33.749+07:00 [ws] ⇄ res ✓ channels.status 1161ms conn=0af6b098…01b3 id=dce542f4…d076
+2026-03-24T15:21:04.542+07:00 WhatsApp asked for a restart after pairing (code 515); waiting for creds to save…
+2026-03-24T15:21:30.256+07:00 [ws] ⇄ res ✓ channels.status 497ms conn=0af6b098…01b3 id=ab4b0aa1…bd75
+2026-03-24T15:22:07.459+07:00 [ws] ⇄ res ✓ channels.status 567ms conn=0af6b098…01b3 id=fd6b09c1…6786
+2026-03-24T15:22:07.643+07:00 [ws] ⇄ res ✓ skills.status 75ms conn=0af6b098…01b3 id=5f67ee72…b48f
+2026-03-24T15:22:07.647+07:00 [ws] ⇄ res ✓ models.list 79ms conn=0af6b098…01b3 id=e59fd061…65ef
+2026-03-24T15:22:07.648+07:00 [ws] ⇄ res ✓ cron.status 81ms conn=0af6b098…01b3 id=f3954016…445e
+2026-03-24T15:22:07.649+07:00 [ws] ⇄ res ✓ cron.list 81ms conn=0af6b098…01b3 id=fb569759…9401
+2026-03-24T15:22:07.651+07:00 [ws] ⇄ res ✓ channels.status 87ms conn=0af6b098…01b3 id=22215a1d…5386
+2026-03-24T15:22:07.654+07:00 [ws] ⇄ res ✓ status 86ms conn=0af6b098…01b3 id=1b4670d9…0691
+2026-03-24T15:23:04.545+07:00 [ws] ⇄ res ✓ web.login.wait 120000ms conn=0af6b098…01b3 id=e2f8a78c…ea6d
+2026-03-24T15:23:05.052+07:00 [ws] ⇄ res ✓ channels.status 501ms conn=0af6b098…01b3 id=3bdd2edb…e45d
+2026-03-24T15:23:34.493+07:00 [ws] ⇄ res ✓ models.list 51ms conn=0af6b098…01b3 id=e08a513d…fc28
+2026-03-24T15:23:34.495+07:00 [ws] ⇄ res ✓ cron.status 53ms conn=0af6b098…01b3 id=1b4e47a6…c06b
+2026-03-24T15:23:34.497+07:00 [ws] ⇄ res ✓ cron.list 55ms conn=0af6b098…01b3 id=824d2d7a…336d
+2026-03-24T15:23:34.500+07:00 [ws] ⇄ res ✓ channels.status 63ms conn=0af6b098…01b3 id=4e38bc7f…c2be
+2026-03-24T15:23:34.505+07:00 [ws] ⇄ res ✓ status 63ms conn=0af6b098…01b3 id=c995bf34…9f12
+2026-03-24T15:28:24.268+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=ea78194a-1c6d-4125-a518-5d2a5209aa1f
+2026-03-24T15:30:06.216+07:00 [gateway] signal SIGTERM received
+2026-03-24T15:30:06.218+07:00 [gateway] received SIGTERM; shutting down
+2026-03-24T15:30:06.235+07:00 [gmail-watcher] gmail watcher stopped
+2026-03-24T15:30:06.246+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=0af6b098-a2fc-4a8a-835f-6e55033f01b3
+2026-03-24T15:30:49.441+07:00 [gateway] signal SIGTERM received
+2026-03-24T15:30:49.441+07:00 [gateway] received SIGTERM; shutting down
+2026-03-24T15:30:49.443+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T15:30:51.296+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T15:30:51.327+07:00 [heartbeat] started
+2026-03-24T15:30:51.328+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T15:30:51.342+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T15:30:51.343+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 23225)
+2026-03-24T15:30:51.344+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T15:30:51.357+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T15:30:51.358+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T15:30:51.383+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T15:30:52.214+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T15:30:52.215+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T15:30:53.004+07:00 [telegram] [default] starting provider (@ImperiumCapitalKHBot)
+2026-03-24T15:30:53.006+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T15:30:53.007+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T15:30:53.239+07:00 [ws] webchat connected conn=67b8c1c3-a90a-41fd-898c-2d63855d63b0 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:30:53.854+07:00 [ws] ⇄ res ✓ config.schema 597ms conn=67b8c1c3…63b0 id=2161f2d6…1607
+2026-03-24T15:30:53.858+07:00 [ws] ⇄ res ✓ node.list 603ms conn=67b8c1c3…63b0 id=34e20804…58da
+2026-03-24T15:30:53.859+07:00 [ws] ⇄ res ✓ device.pair.list 602ms conn=67b8c1c3…63b0 id=f73a57cc…fff7
+2026-03-24T15:30:54.727+07:00 [ws] ⇄ res ✓ channels.status 488ms conn=b063a99c…40c5 id=05b9daa4…9627
+2026-03-24T15:30:54.825+07:00 [ws] ⇄ res ✓ doctor.memory.status 87ms conn=3ea7d707…1965 id=9a566af8…eec3
+2026-03-24T15:32:26.023+07:00 [ws] ⇄ res ✓ channels.status 990ms conn=8d3914a4…c09a id=1f9e7dce…a194
+2026-03-24T15:32:28.536+07:00 [gateway] signal SIGTERM received
+2026-03-24T15:32:28.539+07:00 [gateway] received SIGTERM; shutting down
+2026-03-24T15:32:28.559+07:00 [gmail-watcher] gmail watcher stopped
+2026-03-24T15:32:28.571+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=67b8c1c3-a90a-41fd-898c-2d63855d63b0
+2026-03-24T15:32:29.662+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T15:32:29.692+07:00 [heartbeat] started
+2026-03-24T15:32:29.693+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T15:32:29.707+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T15:32:29.707+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 23469)
+2026-03-24T15:32:29.708+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T15:32:29.724+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T15:32:29.725+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T15:32:29.754+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T15:32:30.838+07:00 [telegram] [default] starting provider (@ImperiumCapitalKHBot)
+2026-03-24T15:32:30.843+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T15:32:30.844+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T15:32:31.735+07:00 [ws] webchat connected conn=f890c196-4eb6-4e2e-9620-7a15968cc012 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:32:32.259+07:00 [ws] ⇄ res ✓ config.schema 513ms conn=f890c196…c012 id=cc65299c…6fd9
+2026-03-24T15:32:32.267+07:00 [ws] ⇄ res ✓ node.list 522ms conn=f890c196…c012 id=fdbbc8bc…e90e
+2026-03-24T15:32:32.269+07:00 [ws] ⇄ res ✓ device.pair.list 525ms conn=f890c196…c012 id=8fb07e8e…db72
+2026-03-24T15:32:32.329+07:00 [ws] webchat connected conn=153ab0b4-6bc0-46ff-abbb-a280c1ed95b2 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:32:33.154+07:00 [ws] ⇄ res ✓ chat.history 822ms conn=153ab0b4…95b2 id=8bd648e1…4435
+2026-03-24T15:32:33.155+07:00 [ws] ⇄ res ✓ models.list 818ms conn=153ab0b4…95b2 id=742396f1…ce8e
+2026-03-24T15:32:43.217+07:00 [ws] ⇄ res ✓ skills.status 68ms conn=153ab0b4…95b2 id=864e2948…fa7a
+2026-03-24T15:32:43.231+07:00 [ws] ⇄ res ✓ models.list 81ms conn=153ab0b4…95b2 id=b0bb393d…49ca
+2026-03-24T15:32:43.231+07:00 [ws] ⇄ res ✓ cron.status 85ms conn=153ab0b4…95b2 id=1c996480…8af1
+2026-03-24T15:32:43.232+07:00 [ws] ⇄ res ✓ cron.list 86ms conn=153ab0b4…95b2 id=392cc2ef…f1ec
+2026-03-24T15:32:43.237+07:00 [ws] ⇄ res ✓ channels.status 101ms conn=153ab0b4…95b2 id=89cff442…7020
+2026-03-24T15:32:43.247+07:00 [ws] ⇄ res ✓ status 99ms conn=153ab0b4…95b2 id=a89e35e1…47a1
+2026-03-24T15:32:45.593+07:00 [ws] ⇄ res ✓ channels.status 1623ms conn=153ab0b4…95b2 id=89404abd…2cb2
+2026-03-24T15:32:55.121+07:00 WhatsApp QR received.
+2026-03-24T15:32:55.161+07:00 [ws] ⇄ res ✓ web.login.start 1925ms conn=153ab0b4…95b2 id=6d99c105…a89c
+2026-03-24T15:32:57.039+07:00 [ws] ⇄ res ✓ channels.status 1761ms conn=153ab0b4…95b2 id=1cb72dd3…7591
+2026-03-24T15:35:12.793+07:00 [ws] ⇄ res ✓ skills.status 58ms conn=153ab0b4…95b2 id=8229ab95…9768
+2026-03-24T15:35:40.541+07:00 [ws] webchat connected conn=d33a0292-69a8-47be-9b40-57495d093ef5 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:37:29.699+07:00 [health-monitor] [whatsapp:default] health-monitor: restarting (reason: stopped)
+2026-03-24T15:37:29.726+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T15:37:32.753+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.
+2026-03-24T15:38:13.370+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=d33a0292-69a8-47be-9b40-57495d093ef5
+2026-03-24T15:38:14.237+07:00 [ws] webchat connected conn=f0de48b6-aca6-4ee3-9d7c-cc5a8ebd58d0 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:39:17.760+07:00 [whatsapp] [default] auto-restart attempt 1/10 in 5s
+2026-03-24T15:39:23.296+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T15:39:27.032+07:00 [whatsapp] [default] auto-restart attempt 2/10 in 10s
+2026-03-24T15:39:28.892+07:00 [ws] ⇄ res ✓ channels.status 1007ms conn=5d73f054…53c5 id=4ec3c993…f9fe
+2026-03-24T15:39:28.992+07:00 [ws] ⇄ res ✓ doctor.memory.status 90ms conn=4843af4b…1cf6 id=b00775c0…7afb
+2026-03-24T15:39:31.721+07:00 [gateway] signal SIGTERM received
+2026-03-24T15:39:31.723+07:00 [gateway] received SIGTERM; shutting down
+2026-03-24T15:39:31.746+07:00 [gmail-watcher] gmail watcher stopped
+2026-03-24T15:39:31.758+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=f0de48b6-aca6-4ee3-9d7c-cc5a8ebd58d0
+2026-03-24T15:39:31.758+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=153ab0b4-6bc0-46ff-abbb-a280c1ed95b2
+2026-03-24T15:39:31.759+07:00 [ws] webchat disconnected code=1012 reason=service restart conn=f890c196-4eb6-4e2e-9620-7a15968cc012
+2026-03-24T15:39:32.821+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T15:39:32.857+07:00 [heartbeat] started
+2026-03-24T15:39:32.858+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T15:39:32.873+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T15:39:32.874+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 24017)
+2026-03-24T15:39:32.874+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T15:39:32.889+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T15:39:32.890+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T15:39:32.907+07:00 [gateway] signal SIGTERM received
+2026-03-24T15:39:32.908+07:00 [gateway] received SIGTERM; shutting down
+2026-03-24T15:39:32.918+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T15:39:33.973+07:00 [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/sumrichchenda/.openclaw/canvas)
+2026-03-24T15:39:33.994+07:00 [heartbeat] started
+2026-03-24T15:39:33.995+07:00 [health-monitor] started (interval: 300s, startup-grace: 60s, channel-connect-grace: 120s)
+2026-03-24T15:39:34.007+07:00 [gateway] agent model: anthropic/claude-opus-4-6
+2026-03-24T15:39:34.007+07:00 [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 24076)
+2026-03-24T15:39:34.008+07:00 [gateway] log file: /tmp/openclaw/openclaw-2026-03-24.log
+2026-03-24T15:39:34.021+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T15:39:34.022+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T15:39:34.047+07:00 [browser/server] Browser control listening on http://127.0.0.1:18791/ (auth=token)
+2026-03-24T15:39:34.098+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T15:39:34.774+07:00 [ws] webchat connected conn=54af8b7d-c20e-4552-9f31-648191b7f867 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:39:35.205+07:00 [ws] ⇄ res ✓ config.get 423ms conn=54af8b7d…f867 id=6790069a…c92a
+2026-03-24T15:39:35.206+07:00 [ws] ⇄ res ✓ node.list 427ms conn=54af8b7d…f867 id=49d9d6e8…6eb8
+2026-03-24T15:39:35.207+07:00 [ws] ⇄ res ✓ device.pair.list 427ms conn=54af8b7d…f867 id=f75906e6…e1e1
+2026-03-24T15:39:36.092+07:00 [telegram] [default] starting provider (@ImperiumCapitalKHBot)
+2026-03-24T15:39:36.094+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T15:39:36.094+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T15:39:36.147+07:00 [ws] ⇄ res ✓ health 1368ms conn=54af8b7d…f867 id=074d6cee…628c
+2026-03-24T15:39:37.738+07:00 [ws] webchat connected conn=7740f462-bb32-4e8f-864b-ca8d69ab6b6d remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:39:37.763+07:00 [ws] webchat connected conn=456cc34e-2066-4f34-9210-44052de6998b remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:39:38.335+07:00 [whatsapp] [default] auto-restart attempt 1/10 in 5s
+2026-03-24T15:39:43.512+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T15:39:46.300+07:00 [whatsapp] [default] auto-restart attempt 2/10 in 11s
+2026-03-24T15:39:57.023+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T15:40:00.962+07:00 [whatsapp] [default] auto-restart attempt 3/10 in 20s
+2026-03-24T15:40:21.328+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T15:40:27.128+07:00 [whatsapp] [default] auto-restart attempt 4/10 in 41s
+2026-03-24T15:40:48.119+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=456cc34e-2066-4f34-9210-44052de6998b
+2026-03-24T15:40:48.993+07:00 [ws] webchat connected conn=a4414528-5179-4490-b62f-7d5fd1153ee3 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:41:08.314+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T15:41:13.261+07:00 [whatsapp] [default] auto-restart attempt 5/10 in 84s
+2026-03-24T15:41:48.667+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=a4414528-5179-4490-b62f-7d5fd1153ee3
+2026-03-24T15:41:49.521+07:00 [ws] webchat connected conn=581be6b9-a513-45d3-b12d-feb53282ea37 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:42:37.241+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T15:42:38.720+07:00 [whatsapp] [default] auto-restart attempt 6/10 in 173s
+2026-03-24T15:43:31.340+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=581be6b9-a513-45d3-b12d-feb53282ea37
+2026-03-24T15:43:32.210+07:00 [ws] webchat connected conn=25d100ac-5c15-4a7e-bee8-be21d1dc93c8 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:43:40.786+07:00 [ws] ⇄ res ✓ channels.status 1734ms conn=25d100ac…93c8 id=e78bfb36…1fa3
+2026-03-24T15:43:43.673+07:00 Cleared WhatsApp Web credentials.
+2026-03-24T15:43:44.414+07:00 [ws] ⇄ res ✓ channels.status 582ms conn=25d100ac…93c8 id=51bbd61a…91c3
+2026-03-24T15:43:48.624+07:00 WhatsApp QR received.
+2026-03-24T15:43:48.664+07:00 [ws] ⇄ res ✓ web.login.start 1797ms conn=25d100ac…93c8 id=021f042d…6a75
+2026-03-24T15:43:50.812+07:00 [ws] ⇄ res ✓ channels.status 2034ms conn=25d100ac…93c8 id=bf7930d2…887f
+2026-03-24T15:45:40.212+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=25d100ac-5c15-4a7e-bee8-be21d1dc93c8
+2026-03-24T15:45:41.073+07:00 [ws] webchat connected conn=9f48e1ef-b092-472f-9a4d-ef679e4c1def remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:45:42.619+07:00 [ws] ⇄ res ✓ channels.status 1536ms conn=9f48e1ef…1def id=0723dbd3…7ddd
+2026-03-24T15:46:18.364+07:00 [ws] ⇄ res ✓ channels.status 2028ms conn=9f48e1ef…1def id=613dca33…9e6a
+2026-03-24T15:46:19.786+07:00 [ws] ⇄ res ✓ channels.status 485ms conn=9f48e1ef…1def id=9d335899…1e02
+2026-03-24T15:46:22.334+07:00 [ws] ⇄ res ✓ channels.status 650ms conn=9f48e1ef…1def id=dc5e6340…4414
+2026-03-24T15:46:23.421+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=9f48e1ef-b092-472f-9a4d-ef679e4c1def
+2026-03-24T15:46:24.289+07:00 [ws] webchat connected conn=22804f8f-3ed1-4efc-bfb9-3d457b8ad4f9 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:46:24.858+07:00 [ws] ⇄ res ✓ channels.status 563ms conn=22804f8f…d4f9 id=fd2093c5…1552
+2026-03-24T15:46:27.990+07:00 [ws] ⇄ res ✓ channels.status 675ms conn=22804f8f…d4f9 id=1af23c0c…4c2a
+2026-03-24T15:46:30.151+07:00 WhatsApp asked for a restart after pairing (code 515); waiting for creds to save…
+2026-03-24T15:46:33.228+07:00 ✅ Linked! WhatsApp is ready.
+2026-03-24T15:46:33.259+07:00 [ws] ⇄ res ✓ web.login.wait 3110ms conn=22804f8f…d4f9 id=07130c28…64ac
+2026-03-24T15:46:33.260+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T15:46:35.181+07:00 [ws] ⇄ res ✓ channels.status 1811ms conn=22804f8f…d4f9 id=bbc18681…a46a
+2026-03-24T15:46:35.432+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.
+2026-03-24T15:46:37.104+07:00 [whatsapp] Inbound message +85511665697 -> +85511665697 (direct, 69 chars)
+2026-03-24T15:46:42.989+07:00 [whatsapp] Auto-replied to +85511665697
+2026-03-24T15:46:53.287+07:00 [whatsapp] Inbound message +85511665697 -> +85511665697 (direct, 187 chars)
+2026-03-24T15:46:56.954+07:00 [whatsapp] Auto-replied to +85511665697
+2026-03-24T15:47:41.375+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=22804f8f-3ed1-4efc-bfb9-3d457b8ad4f9
+2026-03-24T15:47:42.243+07:00 [ws] webchat connected conn=745cdb96-9648-450a-9248-04dbc893cb7e remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:47:44.072+07:00 [ws] ⇄ res ✓ channels.status 1817ms conn=745cdb96…cb7e id=ce32498e…e901
+2026-03-24T15:48:03.282+07:00 [ws] ⇄ res ✓ skills.status 90ms conn=745cdb96…cb7e id=0fd2d8a6…1ddb
+2026-03-24T15:48:03.296+07:00 [ws] ⇄ res ✓ models.list 104ms conn=745cdb96…cb7e id=c3849dc7…56ef
+2026-03-24T15:48:03.297+07:00 [ws] ⇄ res ✓ cron.list 108ms conn=745cdb96…cb7e id=557ba3ce…0f12
+2026-03-24T15:48:03.324+07:00 [ws] ⇄ res ✓ status 134ms conn=745cdb96…cb7e id=e5992529…23ba
+2026-03-24T15:48:04.203+07:00 [ws] ⇄ res ✓ channels.status 1819ms conn=745cdb96…cb7e id=96dab3d8…ac49
+2026-03-24T15:48:11.864+07:00 [ws] ⇄ res ✓ skills.status 66ms conn=745cdb96…cb7e id=ab7d8631…ac1c
+2026-03-24T15:48:26.492+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T15:48:26.498+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T15:48:27.159+07:00 [ws] ⇄ res ✓ skills.status 60ms conn=745cdb96…cb7e id=ca264b07…e6b2
+2026-03-24T15:49:34.120+07:00 [ws] ⇄ res ✓ skills.install 14570ms conn=745cdb96…cb7e id=c67d8137…568e
+2026-03-24T15:49:44.624+07:00 [ws] ⇄ res ✓ skills.install 1291ms conn=745cdb96…cb7e id=3548bbb5…8f40
+2026-03-24T15:49:54.025+07:00 [ws] ⇄ res ✗ skills.install 1609ms errorCode=UNAVAILABLE errorMessage=Failed to install go (brew) conn=745cdb96…cb7e id=4252343e…ceb1
+2026-03-24T15:50:01.922+07:00 [ws] ⇄ res ✗ skills.install 10540ms errorCode=UNAVAILABLE errorMessage=Failed to install go (brew) conn=745cdb96…cb7e id=3dc1ba0e…b62d
+2026-03-24T15:50:03.888+07:00 [ws] ⇄ res ✓ skills.install 6641ms conn=745cdb96…cb7e id=1003803d…c351
+2026-03-24T15:50:04.617+07:00 [ws] ⇄ res ✗ skills.install 1844ms errorCode=UNAVAILABLE errorMessage=Install failed (exit 1): Error: A `brew install steipete/tap/gifgrep` process has already locked /Users/sumrichchenda/Library/Caches/Homebrew/downloads/5a1a7937b9baf7f1fcdd1acc79c26c0e91e35e03cc9ebdd011a53aac45e4125a--gifgre… conn=745cdb96…cb7e id=f4353d0a…4f6b
+2026-03-24T15:50:05.223+07:00 [ws] ⇄ res ✗ skills.install 6376ms errorCode=UNAVAILABLE errorMessage=Failed to install go (brew) conn=745cdb96…cb7e id=38731327…0fef
+2026-03-24T15:50:05.444+07:00 [ws] ⇄ res ✗ skills.install 9862ms errorCode=UNAVAILABLE errorMessage=Install failed (exit 1): Error: A `brew install steipete/tap/camsnap` process has already locked /opt/homebrew/Cellar/mpdecimal. conn=745cdb96…cb7e id=b32356ae…2517
+2026-03-24T15:50:07.049+07:00 [ws] ⇄ res ✓ skills.install 5151ms conn=745cdb96…cb7e id=95c93542…07b1
+2026-03-24T15:50:07.126+07:00 [ws] ⇄ res ✗ skills.install 1595ms errorCode=UNAVAILABLE errorMessage=Install failed (exit 1): Error: A `brew install gh` process has already locked /Users/sumrichchenda/Library/Caches/Homebrew/downloads/1c6a59d1811eb755bc0d96b538e0419d734e5a2d4cb8adeb955391f467793185--gh--2.88.1.arm64_tahoe.b… conn=745cdb96…cb7e id=d90abbea…207a
+2026-03-24T15:50:09.023+07:00 [ws] ⇄ res ✗ skills.install 5105ms errorCode=UNAVAILABLE errorMessage=Install failed (exit 1): Error: A `brew install gh` process has already locked /opt/homebrew/Cellar/go. conn=745cdb96…cb7e id=3e79e020…c4a3
+2026-03-24T15:50:09.386+07:00 [ws] ⇄ res ✓ skills.install 4638ms conn=745cdb96…cb7e id=ac755c22…5ead
+2026-03-24T15:50:12.193+07:00 [ws] ⇄ res ✓ skills.install 4445ms conn=745cdb96…cb7e id=ceb23e6f…aace
+2026-03-24T15:50:13.877+07:00 [ws] ⇄ res ✗ skills.install 13763ms errorCode=UNAVAILABLE errorMessage=Install failed (exit 1): Error: A `brew install gemini-cli` process has already locked /opt/homebrew/Cellar/pkgconf. conn=745cdb96…cb7e id=735bbd43…9c63
+2026-03-24T15:50:13.954+07:00 [ws] ⇄ res ✓ skills.install 42838ms conn=745cdb96…cb7e id=9af7078f…c2b6
+2026-03-24T15:50:53.319+07:00 [ws] ⇄ res ✓ skills.install 36081ms conn=745cdb96…cb7e id=aa1b86d2…7bb2
+2026-03-24T15:50:53.393+07:00 [ws] ⇄ res ✓ skills.status 72ms conn=745cdb96…cb7e id=befa6413…db65
+2026-03-24T15:55:12.237+07:00 [ws] ⇄ res ✓ skills.update 71ms conn=745cdb96…cb7e id=e11098ed…a29f
+2026-03-24T15:55:12.290+07:00 [ws] ⇄ res ✓ skills.status 52ms conn=745cdb96…cb7e id=a14de4ae…7cb2
+2026-03-24T15:55:12.751+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, skills)
+2026-03-24T15:55:12.755+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt, skills)
+2026-03-24T15:57:13.438+07:00 [whatsapp] Inbound message +85511665697 -> +85511665697 (direct, 85 chars)
+2026-03-24T15:57:27.561+07:00 [whatsapp] Auto-replied to +85511665697
+2026-03-24T15:57:27.671+07:00 [whatsapp] Inbound message +85511665697 -> +85511665697 (direct, 489 chars)
+2026-03-24T15:57:30.853+07:00 [whatsapp] Auto-replied to +85511665697
+2026-03-24T15:58:22.541+07:00 [telegram] autoSelectFamily=true (default-node22)
+2026-03-24T15:58:22.544+07:00 [telegram] dnsResultOrder=ipv4first (default-node22)
+2026-03-24T15:59:05.847+07:00 [ws] ⇄ res ✓ skills.status 80ms conn=745cdb96…cb7e id=8163e5a5…a9da
+2026-03-24T15:59:06.309+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, skills.entries.notion.apiKey)
+2026-03-24T15:59:06.314+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt, skills.entries.notion.apiKey)
+2026-03-24T15:59:07.284+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T15:59:07.287+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T15:59:07.940+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T15:59:07.944+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T15:59:11.222+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=745cdb96-9648-450a-9248-04dbc893cb7e
+2026-03-24T15:59:12.109+07:00 [ws] webchat connected conn=32be5542-2aaf-485d-a803-8c7839f4dea1 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:59:12.168+07:00 [ws] ⇄ res ✓ skills.status 51ms conn=32be5542…dea1 id=61fc9449…1bb1
+2026-03-24T15:59:12.172+07:00 [ws] ⇄ res ✓ node.list 55ms conn=32be5542…dea1 id=e43b8a20…d3fa
+2026-03-24T15:59:12.172+07:00 [ws] ⇄ res ✓ device.pair.list 56ms conn=32be5542…dea1 id=4cc23caa…8ae5
+2026-03-24T15:59:26.523+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T15:59:26.527+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T15:59:27.845+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, skills.entries.notion.enabled)
+2026-03-24T15:59:27.850+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt, skills.entries.notion.enabled)
+2026-03-24T15:59:34.974+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt)
+2026-03-24T15:59:34.978+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt)
+2026-03-24T15:59:36.632+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, skills.entries.notion.enabled)
+2026-03-24T15:59:36.636+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt, skills.entries.notion.enabled)
+2026-03-24T15:59:40.103+07:00 [ws] webchat disconnected code=1001 reason=n/a conn=32be5542-2aaf-485d-a803-8c7839f4dea1
+2026-03-24T15:59:40.972+07:00 [ws] webchat connected conn=ca71c958-ae77-4b1d-b9d7-e055d8dac89a remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T15:59:41.040+07:00 [ws] ⇄ res ✓ skills.status 59ms conn=ca71c958…c89a id=259e0506…a58f
+2026-03-24T15:59:41.045+07:00 [ws] ⇄ res ✓ node.list 63ms conn=ca71c958…c89a id=c065839c…53f6
+2026-03-24T15:59:41.046+07:00 [ws] ⇄ res ✓ device.pair.list 65ms conn=ca71c958…c89a id=c8bfd482…85a6
+2026-03-24T16:03:44.791+07:00 [ws] ⇄ res ✓ skills.status 51ms conn=ca71c958…c89a id=2ab1b6e7…bae2
+2026-03-24T16:03:45.254+07:00 [reload] config change detected; evaluating reload (meta.lastTouchedAt, skills.entries.notion.apiKey)
+2026-03-24T16:03:45.259+07:00 [reload] config change applied (dynamic reads: meta.lastTouchedAt, skills.entries.notion.apiKey)
+2026-03-24T16:21:15.338+07:00 [ws] webchat disconnected code=1006 reason=n/a conn=54af8b7d-c20e-4552-9f31-648191b7f867
+2026-03-24T16:21:15.372+07:00 [ws] webchat disconnected code=1006 reason=n/a conn=7740f462-bb32-4e8f-864b-ca8d69ab6b6d
+2026-03-24T16:21:15.374+07:00 [ws] webchat disconnected code=1006 reason=n/a conn=ca71c958-ae77-4b1d-b9d7-e055d8dac89a
+2026-03-24T16:21:16.768+07:00 [ws] webchat connected conn=14aba216-1c28-4731-bee2-ab7e2b621cf3 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T16:21:18.734+07:00 [ws] webchat connected conn=34fac94f-37db-4879-8698-668bf83b9e83 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T16:21:18.755+07:00 [ws] webchat connected conn=dc66d0bc-0b5f-49a3-a313-3200181fd563 remote=127.0.0.1 client=openclaw-control-ui webchat v2026.3.23-2
+2026-03-24T16:21:18.812+07:00 [ws] ⇄ res ✓ skills.status 54ms conn=dc66d0bc…d563 id=0d652668…4e11
+2026-03-24T16:21:18.813+07:00 [ws] ⇄ res ✓ node.list 56ms conn=dc66d0bc…d563 id=5f0e45da…7019
+2026-03-24T16:21:18.813+07:00 [ws] ⇄ res ✓ device.pair.list 56ms conn=dc66d0bc…d563 id=a0e23a68…6a8e
+2026-03-24T16:24:15.774+07:00 [whatsapp] [default] auto-restart attempt 1/10 in 5s
+2026-03-24T16:24:20.872+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T16:24:20.885+07:00 [whatsapp] [default] auto-restart attempt 2/10 in 10s
+2026-03-24T16:24:31.046+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T16:24:31.058+07:00 [whatsapp] [default] auto-restart attempt 3/10 in 20s
+2026-03-24T16:24:34.004+07:00 [health-monitor] [whatsapp:default] health-monitor: restarting (reason: stopped)
+2026-03-24T16:24:51.396+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T16:24:51.408+07:00 [whatsapp] [default] auto-restart attempt 1/10 in 5s
+2026-03-24T16:24:56.707+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T16:24:56.718+07:00 [whatsapp] [default] auto-restart attempt 2/10 in 10s
+2026-03-24T16:42:47.322+07:00 [health-monitor] [whatsapp:default] health-monitor: restarting (reason: stopped)
+2026-03-24T16:42:47.325+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T16:42:47.330+07:00 [whatsapp] [default] auto-restart attempt 1/10 in 5s
+2026-03-24T16:58:23.313+07:00 [health-monitor] [whatsapp:default] health-monitor: restarting (reason: stopped)
+2026-03-24T16:58:23.315+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T16:58:23.321+07:00 [whatsapp] [default] auto-restart attempt 1/10 in 5s
+2026-03-24T17:14:14.330+07:00 [health-monitor] [whatsapp:default] health-monitor: restarting (reason: stopped)
+2026-03-24T17:14:14.334+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T17:14:14.341+07:00 [whatsapp] [default] auto-restart attempt 1/10 in 5s
+2026-03-24T17:30:50.261+07:00 [health-monitor] [whatsapp:default] health-monitor: restarting (reason: stopped)
+2026-03-24T17:30:50.269+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T17:30:50.279+07:00 [whatsapp] [default] auto-restart attempt 1/10 in 5s
+2026-03-24T17:48:39.267+07:00 [health-monitor] [whatsapp:default] health-monitor: restarting (reason: stopped)
+2026-03-24T17:48:39.273+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T17:48:39.285+07:00 [whatsapp] [default] auto-restart attempt 1/10 in 5s
+2026-03-24T17:53:03.605+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T17:53:03.611+07:00 [whatsapp] [default] auto-restart attempt 2/10 in 11s
+2026-03-24T17:53:14.430+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T17:53:18.327+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.
+2026-03-24T17:53:40.354+07:00 [telegram] sendMessage ok chat=484389665 message=78
+2026-03-24T18:06:13.506+07:00 [ws] ⇄ res ✓ node.list 330ms conn=dc66d0bc…d563 id=63438334…4c86
+2026-03-24T18:06:13.515+07:00 [ws] ⇄ res ✓ node.list 204ms conn=34fac94f…9e83 id=48e18dbf…5579
+2026-03-24T18:06:13.589+07:00 [ws] ⇄ res ✓ node.list 226ms conn=14aba216…1cf3 id=8e2691d6…8406
+2026-03-24T18:23:39.321+07:00 [health-monitor] [whatsapp:default] health-monitor: restarting (reason: stale-socket)
+2026-03-24T18:23:39.349+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T18:23:43.211+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.
+2026-03-24T18:58:39.356+07:00 [health-monitor] [whatsapp:default] health-monitor: restarting (reason: stale-socket)
+2026-03-24T18:58:39.404+07:00 [whatsapp] [default] starting provider (+85511665697)
+2026-03-24T18:58:41.162+07:00 [whatsapp] Listening for personal WhatsApp inbound messages.

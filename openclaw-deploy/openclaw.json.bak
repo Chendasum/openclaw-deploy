@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.23-2",
+    "lastTouchedAt": "2026-03-24T08:59:36.116Z"
+  },
+  "auth": {
+    "profiles": {
+      "anthropic:default": {
+        "provider": "anthropic",
+        "mode": "api_key"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    },
+    "list": [
+      {
+        "id": "main"
+      },
+      {
+        "id": "anthropic",
+        "name": "anthropic",
+        "workspace": "/Users/sumrichchenda/.openclaw/workspace-anthropic",
+        "agentDir": "/Users/sumrichchenda/.openclaw/agents/anthropic/agent",
+        "model": "anthropic/claude-sonnet-4-6"
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "type": "route",
+      "agentId": "anthropic",
+      "match": {
+        "channel": "telegram",
+        "accountId": "default"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "anthropic",
+      "match": {
+        "channel": "whatsapp",
+        "accountId": "default"
+      }
+    }
+  ],
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "channels": {
+    "whatsapp": {
+      "enabled": true,
+      "dmPolicy": "allowlist",
+      "selfChatMode": true,
+      "allowFrom": [
+        "+85511665697"
+      ],
+      "groupPolicy": "allowlist",
+      "debounceMs": 0,
+      "mediaMaxMb": 50
+    },
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "open",
+      "botToken": "8795136680:AAFtlvVsc29lCpzPVcQ-0AX1vnlp-wZaa5E",
+      "groups": {
+        "*": {
+          "requireMention": true
+        }
+      },
+      "allowFrom": [
+        "*"
+      ],
+      "groupPolicy": "allowlist",
+      "streaming": "partial"
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "c43453cc2b871061c43fd8ac65b709f39d34ce2292242315"
+    }
+  },
+  "skills": {
+    "entries": {
+      "notion": {
+        "enabled": true,
+        "apiKey": "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"
+      }
+    }
+  }
+}
