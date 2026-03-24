@@ -2,8 +2,8 @@ FROM node:20
 
 WORKDIR /app
 
-# Install OpenClaw globally from GitHub
-RUN npm install -g github:imperiumcapitalkh/openclaw
+RUN apt-get update && apt-get install -y curl \
+    && curl -L https://github.com/imperiumcapitalkh/openclaw/releases/latest/download/openclaw.tar.gz \
+    | tar -xz -C /usr/local/bin
 
-# Run OpenClaw gateway
 CMD ["openclaw", "gateway"]
